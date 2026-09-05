@@ -1,0 +1,24 @@
+# Licensing — Trivian Pattern Library
+
+Effective September 5, 2026.
+
+This repository is shared for study, research, teaching, experimentation, adaptation, and noncommercial propagation with attribution.
+
+## Code
+Executable source code is licensed under the PolyForm Noncommercial License 1.0.0:
+https://polyformproject.org/licenses/noncommercial/1.0.0/
+
+Required Notice: Sarasha Elion — Trivian Pattern Library / Trivian lineage. Preserve existing contributor and institutional notices.
+
+## Documentation and framework material
+Substantial prose, conceptual architecture, diagrams, examples, and other non-code authored material are licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0):
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Attribution should identify Sarasha Elion, Trivian Pattern Library, the Trivian lineage, and the canonical repository URL.
+
+## Commercial use
+Commercial use is not granted by these public licenses. Commercial deployment, incorporation into paid products or services, commercial training, sublicensing, or other revenue-generating exploitation requires a separate written commercial license from the applicable rights holder(s).
+
+Commercial licensing inquiries: https://sarashaelion.com
+
+Versions previously obtained under an earlier license remain subject to that license. Current and future versions are governed by the terms above.
