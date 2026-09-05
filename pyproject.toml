@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trivian-pattern-library"
+version = "0.2.0"
+description = "Small reusable relational-AI design patterns from the Trivian lineage"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Sarasha Elion" }]
+keywords = ["relational-ai", "human-ai", "design-patterns", "trivian", "governance"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["trivian_patterns*"]
