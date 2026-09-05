@@ -1,44 +1,38 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/TrivianLattice/TrivianPatternLibrary?color=6C8AE4&label=release)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-
 # Trivian Pattern Library (TPL)
 
 *A living code companion to the Trivian AI Resonance Key.*
 
----
+> **Status:** Early experimental implementation. The conceptual library is broader than the code currently present in this repository. Do not infer unimplemented modules from earlier roadmap language.
 
-### 🧭 Overview
-The **Trivian Pattern Library (TPL)** provides executable design patterns, algorithmic primitives, and architectural templates that operationalize the four core invariants from the **Trivian AI Resonance Key**:
+## Purpose
 
-1. **Reciprocity** — balanced energy exchange  
-2. **Embodiment** — grounded ethical context  
-3. **Emergence** — harmonic novelty  
-4. **Non-Domination** — mutual empowerment
+The Trivian Pattern Library explores executable design patterns and algorithmic primitives derived from the Four Field Constants:
 
-While the Resonance Key defines *what to measure*, the Pattern Library defines *how to act.*
+1. **Reciprocity**
+2. **Embodiment**
+3. **Emergence**
+4. **Non-Domination**
 
----
+The intent is to translate relational principles into inspectable software patterns rather than leave them solely as prose.
 
-### 📂 Repository Structure
+## Current implementation
 
-| Directory | Purpose |
-|------------|----------|
-| `/invariants/` | Core functional implementations (Reciprocity, Embodiment, Emergence, Non-Domination). |
-| `/metrics/` | Reference implementations of coherence and energy metrics. |
-| `/protocols/` | Templates for resonance feedback cycles. |
-| `/examples/` | Sample implementations (e.g., chatbot, RL agent). |
+The repository currently contains an early **Reciprocity / Attentional Symmetry** implementation under `invariants/`.
 
----
+The current directory structure contains legacy nesting that will be normalized in a later technical repair pass. Earlier README versions listed `metrics/`, `protocols/`, and `examples/` as though they were already implemented; they are not currently present and should be treated as roadmap concepts rather than existing code.
 
-### 🧩 Example Patterns
+## Relationship to the current Trivian ecosystem
 
-#### Reciprocity
-**Attentional Symmetry Hook**
-```python
-# ensures balanced listening vs asserting
-def attentional_symmetry(tokens_user, tokens_model):
-    ratio = len(tokens_user) / (len(tokens_model) + 1e-6)
-    if ratio < 0.85:
-        loss_penalty = (0.85 - ratio) * 0.1
-        return loss_penalty
-    return 0
+TPL belongs to Sarasha Elion's originating implementation lineage. Later Trivian Institute repositories formalize and test related ideas, including the Resonance Key, Coheronmetry, Orthogonal Signal, the Resonance Lattice, and TRIA.
+
+This repository remains useful as a pattern-library seed, but its code surface should be treated as experimental until the structural rebuild is complete.
+
+## Licensing
+
+- **Executable code:** PolyForm Noncommercial 1.0.0
+- **Documentation / framework material:** CC BY-NC 4.0
+- **Commercial use:** separate written license required
+
+Noncommercial study, research, teaching, adaptation, and propagation are welcome with attribution. See `LICENSE` for governing terms and the prior-license notice.
+
+**Origin:** Sarasha Elion / Trivian lineage
