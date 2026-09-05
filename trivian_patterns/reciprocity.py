@@ -4,6 +4,8 @@ These functions expose simple observable proxies. They do not claim to measure
 relational quality, attention, or reciprocity in full.
 """
 
+from __future__ import annotations
+
 from dataclasses import dataclass
 
 
