@@ -1,0 +1,49 @@
+{
+  "library": "Trivian Pattern Library",
+  "version": "0.2.0",
+  "maintainer": "Sarasha Elion",
+  "lineage": "Trivian",
+  "purpose": "Small reusable relational-AI design patterns for systems that do not require the full TRIA architecture.",
+  "patterns": [
+    {
+      "id": "reciprocity.attentional_symmetry",
+      "module": "trivian_patterns.reciprocity",
+      "function": "attentional_symmetry",
+      "observes": "relative contribution unit counts",
+      "does_not_establish": ["listening quality", "fairness", "care", "semantic reciprocity"]
+    },
+    {
+      "id": "embodiment.context_grounding",
+      "module": "trivian_patterns.embodiment",
+      "function": "context_grounding",
+      "observes": "presence of selected situating context fields",
+      "does_not_establish": ["truthfulness", "biological embodiment", "context quality"]
+    },
+    {
+      "id": "emergence.preserve_optionality",
+      "module": "trivian_patterns.emergence",
+      "function": "preserve_optionality",
+      "observes": "number of live alternatives and whether an outcome is forced",
+      "does_not_establish": ["novelty", "creativity", "emergence"]
+    },
+    {
+      "id": "non_domination.consent_gate",
+      "module": "trivian_patterns.non_domination",
+      "function": "consent_gate",
+      "observes": "declared consent, reversibility, and coercion flags",
+      "does_not_establish": ["legal consent", "capacity", "absence of coercion"]
+    },
+    {
+      "id": "repair.rupture_repair",
+      "module": "trivian_patterns.repair",
+      "function": "rupture_repair",
+      "observes": "completion of a minimal named repair sequence",
+      "does_not_establish": ["restored trust", "therapeutic repair", "relationship safety"]
+    }
+  ],
+  "license": {
+    "code": "PolyForm Noncommercial 1.0.0",
+    "documentation": "CC BY-NC 4.0",
+    "commercial_use": "separate_written_license_required"
+  }
+}
